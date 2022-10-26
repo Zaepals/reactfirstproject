@@ -1,0 +1,35 @@
+header {
+   width: 100%;
+}
+.header__inner {
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header__content {
+   display: flex;
+   align-items: center;
+}
+.header__doc {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.1px;
+   padding: 0 32px;
+   color: #9ca9b3;
+}
+.header__btn {
+   margin: 0px 0 0 32px;
+}
+.header__btn a {
+   color: #eceded;
+   background-color: #6163ff;
+   padding: 8px 23px;
+   border-radius: 2px;
+   font-size: 16px;
+   line-height: normal;
+   font-weight: 700;
+}
+.header__btn a:hover {
+   background-color: #6b6dff;
+}
